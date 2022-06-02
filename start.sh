@@ -5,11 +5,9 @@ sudo pacman -Sy neofetch vim pcmanfm alacritty git zsh polybar picom nitrogen gi
 git clone https://aur.archlinux.org/yay.git
 cd yay 
 makepkg -si
-cd (edited)
-[2:28 AM]
+cd 
 sudo rm -r yay
-yay --save --answerclean NONE --answerdiff NONE (edited)
-[2:34 AM]
+yay --save --answerclean NONE --answerdiff NONE
 yay -S ly-git pipes
 sudo systemctl enable ly.service
 
