@@ -17,5 +17,5 @@ sudo mv $HOME/dotfiles/picom.conf /etc/xdg/picom.conf
 sudo mv $HOME/dotfiles/i3 $HOME/.config/
 sudo mv $HOME/dotfiles/polybar $HOME/.config/
 sudo mv $HOME/dotfiles/rofi $HOME/.config/
-sudo mv $HOME/dotfiles/wallpaper.png $HOME/Pictures/
+sudo mv $HOME/dotfiles/wallpaper.png $HOME/Pictures/wallpaper.jpg
 nitrogen $HOME/Pictures/wallpaper.jpg
