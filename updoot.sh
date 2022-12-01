@@ -1,12 +1,15 @@
 #!/bin/bash
 
+echo ''
 echo "test y/n ?" | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in 
   y|Y|yes|Yes ) ;;
   n|N|no|No )
 	yesyesyes | lolcat;;
+  * ) ;;
 esac
+echo ''
 
 echo 'Do pacman cleanup ?' | lolcat
 read -p "[y/n] ? " choice
@@ -25,9 +28,10 @@ case "$choice" in
 	#Delete cache directory
 	sudo rm -rf ~/.cache*
 
-	#Clear terminal & list filesystem
+	#Clear terminal & list filesystem;;
+  * ) ;;
 esac
-echo
+echo ''
 
 echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc ?' | lolcat
 read -p "[y/n] ? " choice
@@ -38,9 +42,10 @@ case "$choice" in
 	sudo rm -rf $HOME/.bashrc
 	sudo rm -rf $HOME/.zshrc
 	sudo rm -rf $HOME/.xinitrc
-	sudo rm -rf $HOME/.config
+	sudo rm -rf $HOME/.config;;
+  * ) ;;
 esac
-echo
+echo ''
 
 echo 'Replace .config .bashrc .xinitrc ?' | lolcat
 read -p "[y/n] ? " choice
@@ -50,19 +55,20 @@ case "$choice" in
 	sudo git clone https://github.com/maisl0l//dotfiles | lolcat
 	sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
 	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
-	sudo cp -r $HOME/dotfiles/.config $HOME/.config
+	sudo cp -r $HOME/dotfiles/.config $HOME/.config;;
+  * ) ;;
 esac
-echo
+echo ''
 
 echo 'Neofetch test' | lolcat
 neofetch
 sudo cp -r $HOME/dotfiles/test/config.conf $HOME/.config/neofetch/config.conf
 sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
 neofetch
-echo
+echo ''
 clear
 df -h | lolcat
-echo
+echo ''
 
 #echo 'Placeholder' | lolcat
 #read -p "[y/n] ?" choice
@@ -70,7 +76,8 @@ echo
 #  y|Y|yes|Yes ) ;;
 #  n|N|no|No )
 #  echo placeholder
+#  * ) ;;
 #esac
-#echo
+#echo ''
 
 echo 'Done :)'
