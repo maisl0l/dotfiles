@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc ?' | lolcat
+echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc' | lolcat
+read -p "[y/n] ?" choice
 case "$choice" in 
   y|Y ) ;;
   n|N ) 
