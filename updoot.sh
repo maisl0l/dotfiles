@@ -4,9 +4,10 @@ echo ''
 echo "test y/n ?" | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in 
-  y|Y ) ;;
+  y|Y )
+  	echo yesyes;;
   n|N )
-	echo yesyesyes | lolcat;;
+	echo nono
   * ) ;;
 esac
 echo ''
@@ -15,8 +16,7 @@ echo 'Do pacman cleanup ?' | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in
   y|Y ) ;;
-  n|N )
-	#Sync pacman database
+  	#Sync pacman database
 	sudo pacman -Syy
 
 	#Clean pacman cache
@@ -30,6 +30,8 @@ case "$choice" in
 
 	#Clear terminal & list filesystem
 	clear && df -h | lolcat;;
+  n|N )
+
   * ) ;;
 esac
 echo ''
