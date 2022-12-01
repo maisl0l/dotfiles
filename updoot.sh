@@ -25,10 +25,6 @@
         sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
         sudo cp -r $HOME/dotfiles/.config $HOME/.config
 
-    #Neofetch test
-        sudo cp -r $HOME/dotfiles/test/config.conf $HOME/.config/neofetch/config.conf
-        sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
-
     #Chmod polybar/launch.sh
         sudo chmod +x $HOME/.config/polybar/launch.sh
         
