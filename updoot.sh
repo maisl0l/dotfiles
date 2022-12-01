@@ -13,10 +13,6 @@ echo 'Do pacman cleanup ?' | lolcat
 
 	#Delete cache directory
 	sudo rm -rf ~/.cache*
-
-	#Clear terminal & list filesystem
-	clear 
-	df -h | lolcat
 echo ''
 
 echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc ?' | lolcat
@@ -39,6 +35,8 @@ sudo cp -r $HOME/dotfiles/test/config.conf $HOME/.config/neofetch/config.conf
 sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
 echo ''
 
+clear
+neofetch | lolcat
 df -h | lolcat
 
 #echo 'Placeholder' | lolcat
