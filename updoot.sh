@@ -36,7 +36,7 @@ echo
 echo 'Done :)' | lolcat
 echo
 
-echo 'StartX ?
+echo 'StartX ?' | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in 
   y|Y|yes|Yes ) ;;
