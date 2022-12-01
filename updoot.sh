@@ -5,9 +5,9 @@ echo "test y/n ?" | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in 
   y|Y )
-  	echo yesyes;;
+  	echo yesyes
   n|N )
-	echo nono
+	echo nono;;
   * ) ;;
 esac
 echo ''
