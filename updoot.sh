@@ -8,7 +8,6 @@ case $yn in
   n ) echo no;
   exit;;
   * ) echo invalid response;
-  exit 1;;
 esac
 echo ''
 
@@ -33,7 +32,6 @@ case $yn in
   n ) echo no2
   exit;;
   * ) echo invalid response;
-  exit 1;;
 esac
 echo ''
 
@@ -49,7 +47,6 @@ case $yn in
   n ) echo no3
   exit;;
   * ) echo Invalid response;
-  exit 1;;
 esac
 echo ''
 
@@ -64,7 +61,6 @@ case $yn in
   n )
   exit;;
   * ) echo Invalid response;
-  exit 1 ;;
 esac
 echo ''
 
