@@ -6,7 +6,7 @@ read -p "[y/n] ? " yn
 case $yn in 
   y ) echo yes;;
   n ) echo no;
-  * ) echo invalid response;
+  * )
 esac
 echo ''
 
@@ -28,8 +28,8 @@ case $yn in
 
 	#Clear terminal & list filesystem
 	clear && df -h | lolcat;;
-  n ) echo no2
-  * ) echo invalid response;
+  n ) echo no2;
+  * )
 esac
 echo ''
 
@@ -43,7 +43,7 @@ case $yn in
 	sudo rm -rf $HOME/.xinitrc
 	sudo rm -rf $HOME/.config;;
   n ) echo no3
-  * ) echo Invalid response;
+  * )
 esac
 echo ''
 
@@ -56,7 +56,7 @@ case $yn in
 	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
 	sudo cp -r $HOME/dotfiles/.config $HOME/.config;;
   n )
-  * ) echo Invalid response;
+  * )
 esac
 echo ''
 
