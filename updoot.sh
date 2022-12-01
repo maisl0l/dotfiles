@@ -3,7 +3,7 @@
 echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc' | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in 
-  y|Y ) ;;
+  y|Y|yes|Yes ) ;;
   n|N ) 
 	sudo rm -rf $HOME/dotfiles
 	sudo rm -rf $HOME/.bashrc
