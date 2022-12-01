@@ -29,7 +29,7 @@ case "$choice" in
 	sudo rm -rf ~/.cache*
 
 	#Clear terminal & list filesystem
-	clear && df -h | lolcat
+	clear && df -h | lolcat;;
   * ) ;;
 esac
 echo ''
@@ -68,7 +68,7 @@ sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
 echo ''
 clear
 neofetch | lolcat
-df -h | lolcat
+df -h | lolcat;;
 echo ''
 
 #echo 'Placeholder' | lolcat
