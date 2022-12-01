@@ -35,15 +35,7 @@ clear
 neofetch | lolcat
 df -h | lolcat
 
-#echo 'Placeholder' | lolcat
-#read -p "[y/n] ?" choice
-#case "$choice" in 
-#  y|Y|yes|Yes ) ;;
-#  n|N|no|No )
-#  echo placeholder
-#  * ) ;;
-#esac
-#echo ''
+
 
 #bin bash
 
