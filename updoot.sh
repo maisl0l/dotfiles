@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Do pacman cleanup ? " | lolcat
-read -p "[y/n] ?" choice
+echo 'Do pacman cleanup ?' | lolcat
+read -p "[y/n] ? " choice
 case "$choice" in
   y|Y|yes|Yes ) ;;
   n|N|no|No )
