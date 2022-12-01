@@ -35,3 +35,12 @@ clear
 echo
 echo 'Done :)' | lolcat
 echo
+
+echo 'StartX ?
+read -p "[y/n] ? " choice
+case "$choice" in 
+  y|Y|yes|Yes ) ;;
+  n|N|no|No )
+  	startx
+esac
+echo
