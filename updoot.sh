@@ -32,8 +32,9 @@
     #Chmod polybar/launch.sh
         sudo chmod +x $HOME/.config/polybar/launch.sh
         
-    #Move wallpaper
-        sudo mv $HOME/dotfiles/wallpaper.jpg $HOME/Pictures/wallpaper.jpg
+    #Wallpaper test
+        sudo mkdir $HOME/Pictures/
+        sudo cp -r $HOME/dotfiles/wallpaper.jpg $HOME/Pictures/wallpaper.jpg
     
     #Clear terminal neofetch list-filesystem & done
         clear
