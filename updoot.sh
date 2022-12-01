@@ -30,6 +30,7 @@ neofetch
 sudo cp -r $HOME/dotfiles/test/config.conf $HOME/.config/neofetch/config.conf
 sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
 neofetch
-echo 
+echo
+clear
 echo 'Done :)' | lolcat
 echo
