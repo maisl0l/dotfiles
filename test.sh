@@ -2,7 +2,8 @@
 
 read -p "Test !? " yn
 case "$yn" in
-	y|Y ) ;;
+	y|Y ) 
+		echo yes;;
 	n|N ) 
 		echo no;;
 	* ) ;;
