@@ -15,7 +15,8 @@ echo 'Do pacman cleanup ?' | lolcat
 	sudo rm -rf ~/.cache*
 
 	#Clear terminal & list filesystem
-	clear && df -h | lolcat;;
+	clear 
+	df -h | lolcat;;
   n ) echo no2;
   * )
 echo ''
