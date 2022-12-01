@@ -4,9 +4,9 @@ echo ''
 echo "test y/n ?" | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in 
-  y|Y|yes|Yes ) ;;
-  n|N|no|No )
-	yesyesyes | lolcat;;
+  y|Y ) ;;
+  n|N )
+	echo yesyesyes | lolcat;;
   * ) ;;
 esac
 echo ''
