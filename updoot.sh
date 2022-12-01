@@ -65,5 +65,5 @@ df -h | lolcat
 #	* ) ;;
 #esac
 echo ''
-echo 'Done :) | lolcat'
+echo 'Done :)' | lolcat
 echo ''
