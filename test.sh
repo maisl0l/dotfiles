@@ -9,11 +9,11 @@ case "$yn" in
 	* ) ;;
 esac
 
-read -p "Test 2 !? " yn
+read -p "Test !? " yn
 case "$yn" in
-	y|n )
+	y|Y ) 
 		echo yes;;
-	n|N )
+	n|N ) 
 		echo no;;
 	* ) ;;
 esac
