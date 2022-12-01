@@ -1,7 +1,30 @@
 #!/bin/bash
 
+echo "Cleanup ?" | lolcat
+read -p "[y/n] ?" choice
+case "$choice" in
+  y|Y|yes|Yes ) ;;
+  n|N|no|No )
+	#Sync pacman database
+	sudo pacman -Syy
+
+	#Clean pacman cache
+	sudo pacman -Scc --noconfirm
+
+	#Remove unused packages
+	sudo pacman -Rns $(pacman -Qtdq) --noconfirm
+
+	#Delete cache directory
+	sudo rm -rf ~/.cache*
+
+	#Clear terminal & list filesystem
+	clear
+	df -h | lolcat
+esac
+echo
+
 echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc ?' | lolcat
-read -p "[y/n] ? " choice
+read -p "[y/n] ?" choice
 case "$choice" in 
   y|Y|yes|Yes ) ;;
   n|N|no|No ) 
@@ -14,7 +37,7 @@ esac
 echo
 
 echo 'Replace .config .bashrc .xinitrc ?' | lolcat
-read -p "[y/n] ? " choice
+read -p "[y/n] ?" choice
 case "$choice" in 
   y|Y|yes|Yes ) ;;
   n|N|no|No )
@@ -33,14 +56,15 @@ neofetch
 echo
 clear
 echo
-echo 'Done :)' | lolcat
 echo
 
 #echo 'Placeholder' | lolcat
-#read -p "[y/n] ? " choice
+#read -p "[y/n] ?" choice
 #case "$choice" in 
 #  y|Y|yes|Yes ) ;;
 #  n|N|no|No )
 #  echo placeholder
 #esac
 #echo
+
+echo 'Done :)'
