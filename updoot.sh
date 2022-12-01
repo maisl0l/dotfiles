@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 'Delteting dotfiles, .config .bashrc .zshrc .xinitrc' | lolcat
+echo 'Delteting dotfiles .config .bashrc .zshrc .xinitrc' | lolcat
 sudo rm -rf $HOME/dotfiles
 sudo rm -rf $HOME/.config
 sudo rm -rf $HOME/.bashrc
