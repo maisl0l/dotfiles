@@ -16,7 +16,7 @@
                 sudo rm -rf ~/.cache*;;
             n|N )
                 echo no;;
-            * ) ;;
+            * ) ;
 echo ''
 
     #Remove dotfiles/ .bashrc .zshrc .xinitrc .config/ from $HOME
