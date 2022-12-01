@@ -12,14 +12,14 @@
 	#Delete cache directory
 	sudo rm -rf ~/.cache*
 echo ''
-
+	#Remove dotfiles .bashrc .zshrc .xinitrc .config/
   	sudo rm -rf $HOME/dotfiles
 	sudo rm -rf $HOME/.bashrc
 	sudo rm -rf $HOME/.zshrc
 	sudo rm -rf $HOME/.xinitrc
 	sudo rm -rf $HOME/.config
 echo ''
-
+	#Clone dotfiles.git reaplace .bashrc .xinitrc .config/
   	sudo git clone https://github.com/maisl0l//dotfiles | lolcat
 	sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
 	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
@@ -35,27 +35,6 @@ clear
 neofetch | lolcat
 df -h | lolcat
 
-
-
-#bin bash
-
-#read -p "Test !? " yn
-#case "$yn" in
-#	y|Y ) 
-#		echo yes;;
-#	n|N ) 
-#		echo no;;
-#	* ) ;;
-#esac
-
-#read -p "Test !? " yn
-#case "$yn" in
-#	y|Y ) 
-#		echo yes;;
-#	n|N ) 
-#		echo no;;
-#	* ) ;;
-#esac
 echo ''
 echo 'Done :)' | lolcat
 echo ''
