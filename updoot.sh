@@ -1,5 +1,13 @@
 #!/bin/bash
 
+echo "test y/n ?" | lolcat
+read -p "[y/n] ? " choice
+case "$choice" in 
+  y|Y|yes|Yes ) ;;
+  n|N|no|No )
+	yesyesyes | lolcat;;
+esac
+
 echo 'Do pacman cleanup ?' | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in
