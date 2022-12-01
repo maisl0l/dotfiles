@@ -1,4 +1,5 @@
 #!/bin/bash
+
     #Sync pacman database
     sudo pacman -Syy
 
