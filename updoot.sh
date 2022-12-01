@@ -4,8 +4,8 @@ echo ''
 echo "test y/n ?" | lolcat
 read -p "[y/n] ? " yn
 case $yn in 
-  y ) echo yesyes;;
-  n ) echo nono;
+  y ) echo yes;;
+  n ) echo no;
   exit;;
   * ) echo invalid response;
   exit 1;;
@@ -15,7 +15,7 @@ echo ''
 echo 'Do pacman cleanup ?' | lolcat
 read -p "[y/n] ? " yn
 case $yn in
-  y ) 
+  y ) echo yes
   	#Sync pacman database
 	sudo pacman -Syy
 
@@ -30,7 +30,7 @@ case $yn in
 
 	#Clear terminal & list filesystem
 	clear && df -h | lolcat;;
-  n ) 
+  n ) echo no2
   exit;;
   * ) echo invalid response;
   exit 1;;
@@ -46,7 +46,7 @@ case $yn in
 	sudo rm -rf $HOME/.zshrc
 	sudo rm -rf $HOME/.xinitrc
 	sudo rm -rf $HOME/.config;;
-  n ) 
+  n ) echo no3
   exit;;
   * ) echo Invalid response;
   exit 1;;
