@@ -68,5 +68,6 @@ df -h | lolcat
 #		echo no;;
 #	* ) ;;
 #esac
-
+echo ''
 echo 'Done :)'
+echo ''
