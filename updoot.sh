@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo 'Do pacman cleanup ?' | lolcat
-
   	#Sync pacman database
 	sudo pacman -Syy
 
@@ -15,7 +13,6 @@ echo 'Do pacman cleanup ?' | lolcat
 	sudo rm -rf ~/.cache*
 echo ''
 
-echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc ?' | lolcat
   	sudo rm -rf $HOME/dotfiles
 	sudo rm -rf $HOME/.bashrc
 	sudo rm -rf $HOME/.zshrc
@@ -23,7 +20,6 @@ echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc ?' | lolcat
 	sudo rm -rf $HOME/.config
 echo ''
 
-echo 'Replace .config .bashrc .xinitrc ?' | lolcat
   	sudo git clone https://github.com/maisl0l//dotfiles | lolcat
 	sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
 	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
