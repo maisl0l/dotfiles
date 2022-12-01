@@ -28,7 +28,8 @@ case "$choice" in
 	#Delete cache directory
 	sudo rm -rf ~/.cache*
 
-	#Clear terminal & list filesystem;;
+	#Clear terminal & list filesystem
+	clear && df -h | lolcat
   * ) ;;
 esac
 echo ''
