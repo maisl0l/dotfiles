@@ -33,12 +33,10 @@ echo ''
 	sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
 echo ''
 
-	#Clear terminal, neofetch & list filesystems
+	#Clear terminal, neofetch, list filesystem, final ok
 	clear
 	neofetch | lolcat
 	df -h | lolcat
-echo ''
-	
-	#Final ok
+	echo ''
 	echo 'Done :)' | lolcat
 echo ''
