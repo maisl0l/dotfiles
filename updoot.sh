@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Cleanup ?" | lolcat
+echo "Do pacman cleanup ? " | lolcat
 read -p "[y/n] ?" choice
 case "$choice" in
   y|Y|yes|Yes ) ;;
@@ -24,7 +24,7 @@ esac
 echo
 
 echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc ?' | lolcat
-read -p "[y/n] ?" choice
+read -p "[y/n] ? " choice
 case "$choice" in 
   y|Y|yes|Yes ) ;;
   n|N|no|No ) 
@@ -37,7 +37,7 @@ esac
 echo
 
 echo 'Replace .config .bashrc .xinitrc ?' | lolcat
-read -p "[y/n] ?" choice
+read -p "[y/n] ? " choice
 case "$choice" in 
   y|Y|yes|Yes ) ;;
   n|N|no|No )
