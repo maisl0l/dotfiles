@@ -6,4 +6,4 @@ sudo pacman -Scc --noconfirm
 sudo pacman -Rns $(pacman -Qtdq) --noconfirm
 sudo rm -rf ~/.cache*
 sudo updatedb
-echo done :)
+echo 'done :)'
