@@ -22,7 +22,6 @@ case "$choice" in
 	sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
 	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
 	sudo cp -r $HOME/dotfiles/.config $HOME/.config
-  * ) ;;
 esac
 echo
 
