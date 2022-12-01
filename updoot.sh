@@ -16,8 +16,10 @@ sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
 echo
 
 echo 'Neofetch test' | lolcat
+neofetch
 sudo cp -r $HOME/dotfiles/test/config.conf $HOME/.config/neofetch/config.conf
 sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
+neofetch
 echo 
 echo 'Done :)' | lolcat
 echo
