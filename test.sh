@@ -9,8 +9,8 @@ case "$yn" in
 	* ) ;;
 esac
 
-read -p "Test 2 !?" yn
-case "$yn" in
+read -p "Test 2 !?" yn2
+case "$yn2" in
 	y|n )
 		echo yes2;;
 	n|N )
