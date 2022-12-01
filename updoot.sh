@@ -14,8 +14,8 @@ echo ''
 echo 'Do pacman cleanup ?' | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in
-  y|Y|yes|Yes ) ;;
-  n|N|no|No )
+  y|Y ) ;;
+  n|N )
 	#Sync pacman database
 	sudo pacman -Syy
 
@@ -36,8 +36,8 @@ echo ''
 echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc ?' | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in 
-  y|Y|yes|Yes ) ;;
-  n|N|no|No ) 
+  y|Y ) ;;
+  n|N ) 
 	sudo rm -rf $HOME/dotfiles
 	sudo rm -rf $HOME/.bashrc
 	sudo rm -rf $HOME/.zshrc
@@ -50,8 +50,8 @@ echo ''
 echo 'Replace .config .bashrc .xinitrc ?' | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in 
-  y|Y|yes|Yes ) ;;
-  n|N|no|No )
+  y|Y ) ;;
+  n|N )
 	sudo git clone https://github.com/maisl0l//dotfiles | lolcat
 	sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
 	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
@@ -64,9 +64,9 @@ echo 'Neofetch test' | lolcat
 neofetch
 sudo cp -r $HOME/dotfiles/test/config.conf $HOME/.config/neofetch/config.conf
 sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
-neofetch
 echo ''
 clear
+neofetch | lolcat
 df -h | lolcat
 echo ''
 
