@@ -20,9 +20,8 @@ echo ''
     sudo rm -rf $HOME/.config
 echo ''
 
-    #Clone dotfiles.git chmod polybar/launch.sh & copy .bashrc .xinitrc .config/ to $HOME
+    #Clone dotfiles.git & copy .bashrc .xinitrc .config/ to $HOME
     sudo git clone https://github.com/maisl0l//dotfiles
-    sudo chmod +x $HOME/.config/polybar/launch.sh
     sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
     sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
     sudo cp -r $HOME/dotfiles/.config $HOME/.config
