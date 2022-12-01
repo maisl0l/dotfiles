@@ -14,4 +14,5 @@ sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
 sudo cp -r $HOME/dotfiles/test/config.conf $HOME/.config/neofetch/config.conf
 sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
 echo 
-echo 'done :)'
+echo 'done :)' | lolcat
+echo
