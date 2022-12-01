@@ -4,7 +4,7 @@ echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc' | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in 
   y|Y|yes|Yes ) ;;
-  n|N ) 
+  n|N|no|No ) 
 	sudo rm -rf $HOME/dotfiles
 	sudo rm -rf $HOME/.bashrc
 	sudo rm -rf $HOME/.zshrc
@@ -16,8 +16,8 @@ echo
 echo 'Replacing .config .bashrc .xinitrc' | lolcat
 read -p "[y/n] ? " choice
 case "$choice" in 
-  y|Y ) ;;
-  n|N )
+  y|Y|yes|Yes ) ;;
+  n|N|no|No )
 	sudo git clone https://github.com/maisl0l//dotfiles | lolcat
 	sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
 	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
