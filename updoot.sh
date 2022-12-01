@@ -1,12 +1,11 @@
 #!/bin/bash
 
 echo ''
-echo "test y/n ?" | lolcat
-read -p "[y/n] ? " yn
-if $yn in 
-  y ) echo yes;;
-  n ) echo no;
-  * )
+read -p "Test ! " -n 1 -r | lolcat
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+	echo yes
+	exit 1
 fi
 echo ''
 
