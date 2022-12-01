@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc' | lolcat
-read -p "[y/n] ?" choice
+read -p "[y/n] ? " choice
 case "$choice" in 
   y|Y ) ;;
   n|N ) 
@@ -15,7 +15,7 @@ esac
 echo
 
 echo 'Replacing .config .bashrc .xinitrc' | lolcat
-read -p "[y/n] ?" choice
+read -p "[y/n] ? " choice
 case "$choice" in 
   y|Y ) ;;
   n|N )
