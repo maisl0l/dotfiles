@@ -29,8 +29,8 @@
         sudo chmod +x $HOME/.config/polybar/launch.sh
         
     #Wallpaper test
-        #sudo mkdir $HOME/Pictures/
-        sudo cp -r $HOME/dotfiles/wallpaper.jpg $HOME/wallpaper.jpg
+        sudo mkdir /home/Pictures/
+        sudo cp -r $HOME/dotfiles/wallpaper.jpg /home/Pictures/wallpaper.jpg
     
     #Clear terminal neofetch list-filesystem & done
         clear
