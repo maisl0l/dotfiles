@@ -8,7 +8,7 @@ sudo rm -rf $HOME/.zshrc
 sudo rm -rf $HOME/.xinitrc
 echo
 
-echo 'Cloning dotfiles and replacing .config, .bashrc & .xinitrc' | lolcat
+echo 'Cloning dotfiles and replacing .config .bashrc .xinitrc' | lolcat
 sudo git clone https://github.com/maisl0l//dotfiles | lolcat
 sudo cp -r $HOME/dotfiles/.config $HOME/.config
 sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
