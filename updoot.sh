@@ -4,10 +4,10 @@ echo ''
 echo "test y/n ?" | lolcat
 read -p "[y/n] ? " yn
 case $yn in 
-  y ) echo yesyes
-  n ) echo nono;;
+  y ) echo yesyes;;
+  n ) echo nono;
   	exit;;
-  * ) echo invalid response;;
+  * ) echo invalid response;
       exit 1;;
 esac
 echo ''
