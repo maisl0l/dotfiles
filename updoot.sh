@@ -68,7 +68,7 @@ sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
 echo ''
 clear
 neofetch | lolcat
-df -h | lolcat;;
+df -h | lolcat
 echo ''
 
 #echo 'Placeholder' | lolcat
