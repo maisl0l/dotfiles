@@ -1,9 +1,6 @@
 #!/bin/bash
 
     #Sync pacman database
-        read -p "test ? " yn
-        case "$yn" in
-            y|Y )
                 sudo pacman -Syy
 
     #Clean pacman cache
@@ -14,9 +11,6 @@
 
     #Delete cache directory
                 sudo rm -rf ~/.cache*;;
-            n|N )
-                echo no;;
-            * ) ;;
 
     #Remove dotfiles/ .bashrc .zshrc .xinitrc .config/ from $HOME
                 sudo rm -rf $HOME/dotfiles
