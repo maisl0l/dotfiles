@@ -6,16 +6,16 @@ read -p "[y/n] ? " yn
 case $yn in 
   y ) echo yesyes;;
   n ) echo nono;
-  	exit;;
+  exit;;
   * ) echo invalid response;
-      exit 1;;
+  exit 1;;
 esac
 echo ''
 
 echo 'Do pacman cleanup ?' | lolcat
-read -p "[y/n] ? " choice
-case "$choice" in
-  y|Y ) ;;
+read -p "[y/n] ? " yn
+case $yn in
+  y ) 
   	#Sync pacman database
 	sudo pacman -Syy
 
@@ -30,36 +30,41 @@ case "$choice" in
 
 	#Clear terminal & list filesystem
 	clear && df -h | lolcat;;
-  n|N )
-
-  * ) ;;
+  n ) 
+  exit;;
+  * ) echo invalid response;
+  exit 1;;
 esac
 echo ''
 
 echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc ?' | lolcat
-read -p "[y/n] ? " choice
-case "$choice" in 
-  y|Y ) ;;
-  n|N ) 
-	sudo rm -rf $HOME/dotfiles
+read -p "[y/n] ? " yn
+case $yn in 
+  y ) 
+  	sudo rm -rf $HOME/dotfiles
 	sudo rm -rf $HOME/.bashrc
 	sudo rm -rf $HOME/.zshrc
 	sudo rm -rf $HOME/.xinitrc
 	sudo rm -rf $HOME/.config;;
-  * ) ;;
+  n ) 
+  exit;;
+  * ) echo Invalid response;
+  exit 1;;
 esac
 echo ''
 
 echo 'Replace .config .bashrc .xinitrc ?' | lolcat
-read -p "[y/n] ? " choice
-case "$choice" in 
-  y|Y ) ;;
-  n|N )
-	sudo git clone https://github.com/maisl0l//dotfiles | lolcat
+read -p "[y/n] ? " yn
+case $yn in 
+  y )
+  	sudo git clone https://github.com/maisl0l//dotfiles | lolcat
 	sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
 	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
 	sudo cp -r $HOME/dotfiles/.config $HOME/.config;;
-  * ) ;;
+  n )
+  exit;;
+  * ) echo Invalid response;
+  exit 1 ;;
 esac
 echo ''
 
