@@ -14,4 +14,4 @@ sudo rm -rf ~/.cache*
 
 #Clear terminal & list filesystem
 clear
-df -h
+df -h | lolcat
