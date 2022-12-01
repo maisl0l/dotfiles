@@ -12,7 +12,7 @@
 	sudo rm -rf ~/.cache*
 echo ''
 
-	#Remove dotfiles .bashrc .zshrc .xinitrc .config/ from $HOME
+	#Remove dotfiles/ .bashrc .zshrc .xinitrc .config/ from $HOME
   	sudo rm -rf $HOME/dotfiles
 	sudo rm -rf $HOME/.bashrc
 	sudo rm -rf $HOME/.zshrc
