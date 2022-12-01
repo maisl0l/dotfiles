@@ -63,7 +63,7 @@ gaps inner 10
 for_window [class="^.*"] border pixel 2
 
 #Compositor. This helps in transparency and fading.
-exec_always picom -f --experimental-backends --backend glx
+exec_always picom -b -f --config $HOME/.config 
 
 # Lock Screen This will yield a black lock screen, which
 # can be customized to your liking.
