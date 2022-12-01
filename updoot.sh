@@ -32,5 +32,6 @@ sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
 neofetch
 echo
 clear
+echo
 echo 'Done :)' | lolcat
 echo
