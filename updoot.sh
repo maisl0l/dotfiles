@@ -29,7 +29,7 @@ case "$choice" in
 	sudo rm -rf ~/.cache*
 
 	#Clear terminal & list filesystem;;
-
+  * ) ;;
 esac
 echo ''
 
@@ -43,7 +43,7 @@ case "$choice" in
 	sudo rm -rf $HOME/.zshrc
 	sudo rm -rf $HOME/.xinitrc
 	sudo rm -rf $HOME/.config;;
-
+  * ) ;;
 esac
 echo ''
 
@@ -56,7 +56,7 @@ case "$choice" in
 	sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
 	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
 	sudo cp -r $HOME/dotfiles/.config $HOME/.config;;
-
+  * ) ;;
 esac
 echo ''
 
