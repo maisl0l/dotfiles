@@ -1,7 +1,7 @@
 #!/bin/bash
 
-read -p "Test !? " choice
-case "$CHOICE" in
+read -p "Test !? " yn
+case "$yn" in
 	y|Y ) ;;
 	n|N ) 
 		echo no;;
