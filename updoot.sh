@@ -24,7 +24,7 @@ case "$choice" in
 	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
 	sudo cp -r $HOME/dotfiles/.config $HOME/.config
   * ) ;;
-  esac
+esac
 echo
 
 echo 'Neofetch test' | lolcat
