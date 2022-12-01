@@ -10,7 +10,7 @@
                 sudo pacman -Rns $(pacman -Qtdq) --noconfirm
 
     #Delete cache directory
-                sudo rm -rf ~/.cache*;;
+                sudo rm -rf ~/.cache*
 
     #Remove dotfiles/ .bashrc .zshrc .xinitrc .config/ from $HOME
                 sudo rm -rf $HOME/dotfiles
