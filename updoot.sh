@@ -3,11 +3,11 @@
 echo ''
 echo "test y/n ?" | lolcat
 read -p "[y/n] ? " yn
-case $yn in 
+if $yn in 
   y ) echo yes;;
   n ) echo no;
   * )
-esac
+fi
 echo ''
 
 echo 'Do pacman cleanup ?' | lolcat
