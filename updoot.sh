@@ -5,22 +5,26 @@ read -p "[y/n] ?" choice
 case "$choice" in 
   y|Y ) ;;
   n|N ) 
-	echo ==============================;;
+	sudo rm -rf $HOME/dotfiles
+	sudo rm -rf $HOME/.bashrc
+	sudo rm -rf $HOME/.zshrc
+	sudo rm -rf $HOME/.xinitrc
+	sudo rm -rf $HOME/.config;
   * ) ;;
 esac
-
-sudo rm -rf $HOME/dotfiles
-sudo rm -rf $HOME/.bashrc
-sudo rm -rf $HOME/.zshrc
-sudo rm -rf $HOME/.xinitrc
-sudo rm -rf $HOME/.config
 echo
 
 echo 'Replacing .config .bashrc .xinitrc' | lolcat
-sudo git clone https://github.com/maisl0l//dotfiles | lolcat
-sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
-sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
-sudo cp -r $HOME/dotfiles/.config $HOME/.config
+read -p "[y/n] ?" choice
+case "$choice" in 
+  y|Y ) ;;
+  n|N )
+	sudo git clone https://github.com/maisl0l//dotfiles | lolcat
+	sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
+	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
+	sudo cp -r $HOME/dotfiles/.config $HOME/.config
+  * ) ;;
+  esac
 echo
 
 echo 'Neofetch test' | lolcat
