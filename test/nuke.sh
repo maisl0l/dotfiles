@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo rm -rf /home/marclol/dotfiles
-sudo rm -rf /home/marclol/.config
-sudo rm -rf /home/marclol/.bashrc
-sudo rm -rf /home/marclol/.xinitrc
-sudo rm -rf /home/marclol/Pictures
+sudo rm -rf $HOME/dotfiles
+sudo rm -rf $HOME/.config
+sudo rm -rf $HOME/.bashrc
+sudo rm -rf $HOME/.xinitrc
+sudo rm -rf /home/Pictures
