@@ -36,11 +36,11 @@ echo
 echo 'Done :)' | lolcat
 echo
 
-echo 'StartX ?' | lolcat
-read -p "[y/n] ? " choice
-case "$choice" in 
-  y|Y|yes|Yes ) ;;
-  n|N|no|No )
-  	startx
-esac
-echo
+#echo 'Placeholder' | lolcat
+#read -p "[y/n] ? " choice
+#case "$choice" in 
+#  y|Y|yes|Yes ) ;;
+#  n|N|no|No )
+#  echo placeholder
+#esac
+#echo
