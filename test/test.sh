@@ -1,29 +1,9 @@
 #!/bin/bash
-
-read -p "Test !? " yn
-case "$yn" in
-	y|Y ) 
-		echo yes;;
-	n|N ) 
-		echo no;;
-	* ) ;;
-esac
-
-read -p "Test !? " yn
-case "$yn" in
-	y|Y ) 
-		echo yes;;
-	n|N ) 
-		echo no;;
-	* ) ;;
-esac
-
-#echo 'Placeholder' | lolcat
-#read -p "[y/n] ?" choice
-#case "$choice" in 
-#  y|Y|yes|Yes ) ;;
-#  n|N|no|No )
-#  echo placeholder
-#  * ) ;;
-#esac
-#echo ''
+sudo pacman -Syu
+mkdir /tmp/yay
+cd /tmp/yay
+curl -OJ 'https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=yay'
+makepkg -si
+cd
+rm -rf /tmp/yay
+yay --version
