@@ -39,7 +39,7 @@ sudo cp -r $HOME/dotfiles/test/config.conf $HOME/.config/neofetch/config.conf
 sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
 echo ''
 
-df -h | lolcat
+df -h
 
 #echo 'Placeholder' | lolcat
 #read -p "[y/n] ?" choice
