@@ -1,18 +1,7 @@
 #!/bin/bash
 
-echo ''
-read -p "Test ! " -n 1 -r | lolcat
-if [[ ! $REPLY =~ ^[Yy]$ ]]
-then
-	echo yes
-	exit 1
-fi
-echo ''
-
 echo 'Do pacman cleanup ?' | lolcat
-read -p "[y/n] ? " yn
-case $yn in
-  y ) echo yes
+
   	#Sync pacman database
 	sudo pacman -Syy
 
@@ -29,38 +18,24 @@ case $yn in
 	clear && df -h | lolcat;;
   n ) echo no2;
   * )
-esac
 echo ''
 
 echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc ?' | lolcat
-read -p "[y/n] ? " yn
-case $yn in 
-  y ) 
   	sudo rm -rf $HOME/dotfiles
 	sudo rm -rf $HOME/.bashrc
 	sudo rm -rf $HOME/.zshrc
 	sudo rm -rf $HOME/.xinitrc
 	sudo rm -rf $HOME/.config;;
-  n ) echo no3
-  * )
-esac
 echo ''
 
 echo 'Replace .config .bashrc .xinitrc ?' | lolcat
-read -p "[y/n] ? " yn
-case $yn in 
-  y )
   	sudo git clone https://github.com/maisl0l//dotfiles | lolcat
 	sudo cp -r $HOME/dotfiles/.bashrc $HOME/.bashrc
 	sudo cp -r $HOME/dotfiles/.xinitrc $HOME/.xinitrc
 	sudo cp -r $HOME/dotfiles/.config $HOME/.config;;
-  n )
-  * )
-esac
 echo ''
 
 echo 'Neofetch test' | lolcat
-neofetch
 sudo cp -r $HOME/dotfiles/test/config.conf $HOME/.config/neofetch/config.conf
 sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
 echo ''
@@ -78,5 +53,25 @@ echo ''
 #  * ) ;;
 #esac
 #echo ''
+
+#!/bin/bash
+
+#read -p "Test !? " yn
+#case "$yn" in
+#	y|Y ) 
+#		echo yes;;
+#	n|N ) 
+#		echo no;;
+#	* ) ;;
+#esac
+
+#read -p "Test !? " yn
+#case "$yn" in
+#	y|Y ) 
+#		echo yes;;
+#	n|N ) 
+#		echo no;;
+#	* ) ;;
+#esac
 
 echo 'Done :)'
