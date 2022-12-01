@@ -17,7 +17,6 @@ echo 'Do pacman cleanup ?' | lolcat
 	#Clear terminal & list filesystem
 	clear 
 	df -h | lolcat;;
-  n ) echo no2;
   * )
 echo ''
 
@@ -40,10 +39,8 @@ echo 'Neofetch test' | lolcat
 sudo cp -r $HOME/dotfiles/test/config.conf $HOME/.config/neofetch/config.conf
 sudo cp -r $HOME/dotfiles/test/ascii $HOME/.config/neofetch/logo
 echo ''
-clear
-neofetch | lolcat
+
 df -h | lolcat
-echo ''
 
 #echo 'Placeholder' | lolcat
 #read -p "[y/n] ?" choice
@@ -55,7 +52,7 @@ echo ''
 #esac
 #echo ''
 
-#!/bin/bash
+#bin bash
 
 #read -p "Test !? " yn
 #case "$yn" in
