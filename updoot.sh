@@ -1,6 +1,12 @@
 #!/bin/bash
 
 echo 'Delete dotfiles .config .bashrc .zshrc .xinitrc ?' | lolcat
+case "$choice" in 
+  y|Y ) ;;
+  n|N ) 
+	echo ==============================;;
+  * ) ;;
+esac
 
 sudo rm -rf $HOME/dotfiles
 sudo rm -rf $HOME/.bashrc
