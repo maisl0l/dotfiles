@@ -3,5 +3,5 @@ sudo pacman -S --noconfirm firefox kitty picom polybar i3-gaps neofetch vim lolc
 clear
 neofetch | lolcat
 echo ''
-echo 'done :)'
+echo ' done :)'
 echo ''
