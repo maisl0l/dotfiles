@@ -1,5 +1,4 @@
 #!/bin/bash
-    
     #Backup package list
         sudo pacman -Qqen > pacman-backup.txt
 
