@@ -10,6 +10,11 @@
 	"harddrives": [
 		"/dev/sda"
 	],
+	"hostname": "arch",
+	"kernels": [
+		"linux",
+		"linux-lts"
+	],
 	"keyboard-layout": "de_CH-latin1",
 	"mirror-region": {
 		"Switzerland": {
@@ -20,7 +25,7 @@
 			"https://mirror.init7.net/archlinux/$repo/os$arch": true,
 			"https://mirror.metanet.ch/archlinux/$repo/os$arch": true,
 			"https://mirror.puzzle.ch/archlinux/$repo/os$arch": true,
-			"https://mirror.ungleich.ch/archlinux/$repo/os$arch": true,
+			"https://mirror.ungleich.ch/mirror/packages/archlinux/$repo/os$arch": true,
 			"https://pkg.adfinis.com/archlinux/$repo/os$arch": true,
 			"https://theswissbay.ch/archlinux/$repo/os$arch": true
 		}
