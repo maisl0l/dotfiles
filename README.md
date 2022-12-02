@@ -8,5 +8,5 @@ Inside a live archiso run:
 sudo pacman -Sy --noconfirm git
 cd /home/
 git clone https://github.com/maisl0l/dotfiles
-bash /home/dotfiles/archinstall.sh
+bash /home/dotfiles/pacman.sh
 ```
