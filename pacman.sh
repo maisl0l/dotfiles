@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo pacman -S - < /dotfiles/misc/pacman.txt
+sudo pacman -S - < /misc/pacman.txt
