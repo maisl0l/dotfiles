@@ -1,5 +1,3 @@
-# dotfiles
-
 ## dotfiles for arch with install scripts
 
 ### Inside a live archiso run:
