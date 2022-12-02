@@ -12,11 +12,12 @@ zstyle :compinstall filename '/home/marclol/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-PROMPT=" %B%F{cyan}%~%f%b%B%F{yellow} >~> %f%b"
-neofetch | lolcat
+PROMPT=" %B%F{cyan}%~%f%b %B%F{yellow} >~> %f%b"
 
 alias py='python'
 alias py3='python3'
 alias ovpn='sudo openvpn'
 alias lsa='ls -la'
 alias pacman='sudo pacman -Sy --noconfirm'
+
+neofetch | lolcat
