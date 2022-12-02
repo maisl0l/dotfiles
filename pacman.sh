@@ -4,3 +4,4 @@ clear
 neofetch | lolcat
 echo ''
 echo 'done :)'
+echo ''
