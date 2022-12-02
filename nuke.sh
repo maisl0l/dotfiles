@@ -1,5 +1,4 @@
 #!/bin/bash
-
 sudo rm -rf $HOME/dotfiles
 sudo rm -rf $HOME/.config
 sudo rm -rf $HOME/.bashrc
