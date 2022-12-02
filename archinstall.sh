@@ -41,4 +41,4 @@
         neofetch | lolcat
         echo ''
         echo ' done :)'
-        echo '
+        echo ''
