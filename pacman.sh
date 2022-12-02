@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S - < 
+sudo pacman -S --noconfirm
 firefox kitty picom polybar
 i3-gaps
 neofetch
