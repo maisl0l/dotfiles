@@ -4,10 +4,10 @@
         sudo pacman -Syy
 
     #Clean pacman cache
-        sudo pacman -Scc #--noconfirm
+        sudo pacman -Scc --noconfirm
 
     #Remove unused packages
-        sudo pacman -Rns $(pacman -Qtdq) #--noconfirm
+        sudo pacman -Rns $(pacman -Qtdq) --noconfirm
 
     #Delete cache directory
         sudo rm -rf ~/.cache*
@@ -34,7 +34,7 @@
         sudo cp -r $HOME/dotfiles/wallpaper.jpg /home/Pictures/wallpaper.jpg
     
     #Clear terminal neofetch list-filesystem & done
-        #clear
+        clear
         neofetch | lolcat
         df -h | lolcat
         echo ''
