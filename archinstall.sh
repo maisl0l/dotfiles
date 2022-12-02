@@ -39,7 +39,7 @@
         sudo cp -r $HOME/dotfiles/wallpaper.jpg /home/Pictures/wallpaper.jpg
     
     #Install pacman packages
-        sudo pacman -Sy --noconfirm firefox kitty picom polybar i3-gaps neofetch vim lolcat nitrogen openssh openvpn rofi pipewire pipewire-alsa pipewire-jack pipewire-pulse zsh gimp libreoffice spotifyd 
+        sudo pacman -Sy --noconfirm firefox kitty picom polybar i3-gaps neofetch vim lolcat nitrogen openssh openvpn rofi pipewire pipewire-alsa pipewire-jack pipewire-pulse zsh gimp libreoffice spotifyd
         clear
         neofetch | lolcat
         echo ''
