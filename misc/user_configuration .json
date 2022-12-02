@@ -1,0 +1,47 @@
+{
+	"additional-repositories": [
+		"multilib"
+	],
+	"audio": "pipewire",
+	"bootloader": "grub-install",
+	"config_version": "2.5.1",
+	"debug": false,
+	"gfx_driver": "All open-source (default)",
+	"harddrives": [
+		"/dev/sda"
+	],
+	"keyboard-layout": "de_CH-latin1",
+	"mirror-region": {
+		"Switzerland": {
+			"https://mirror.init7.net/archlinux/$repo/os/$arch": true,
+			"https://mirror.metanet.ch/archlinux/$repo/os$arch": true,
+			"https://mirror.puzzle.ch/archlinux/$repo/os$arch": true,
+			"https://pkg.adfinis.com/archlinux/$repo/os$arch": true,
+			"https://mirror.init7.net/archlinux/$repo/os$arch": true,
+			"https://mirror.metanet.ch/archlinux/$repo/os$arch": true,
+			"https://mirror.puzzle.ch/archlinux/$repo/os$arch": true,
+			"https://mirror.ungleich.ch/archlinux/$repo/os$arch": true,
+			"https://pkg.adfinis.com/archlinux/$repo/os$arch": true,
+			"https://theswissbay.ch/archlinux/$repo/os$arch": true
+		}
+	},
+	"nic": {
+		"dhcp": true,
+		"dns": null,
+		"gateway": null,
+		"iface": null,
+		"ip": null,
+		"type": "nm"
+	},
+	"no_pkg_lookups": false,
+	"offline": false,
+	"packages": [
+		"git"
+	],
+	"profile": {
+		"path": "/usr/lib/python3.10/site-packages/archinstall/profiles/xorg.py"
+	},
+	"script": "guided",
+	"silent": false,
+	"timezone": "Europe/Zurich",
+	"version": "2.5.1"
