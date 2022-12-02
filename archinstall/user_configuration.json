@@ -41,7 +41,7 @@
 	"no_pkg_lookups": false,
 	"offline": false,
 	"packages": [
-		"git"
+		"efibootmgr"
 	],
 	"profile": {
 		"path": "/usr/lib/python3.10/site-packages/archinstall/profiles/xorg.py"
