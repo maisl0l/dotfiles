@@ -1,6 +1,6 @@
 ## dotfiles for arch with install scripts
 
-### Inside an live archiso run:
+### Inside a live archiso run:
   
 ```sh
 sudo pacman -Sy --noconfirm git
