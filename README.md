@@ -1,8 +1,8 @@
 # dotfiles
 
-dotfiles for arch with install scripts
+## dotfiles for arch with install scripts
 
-Inside a live archiso run:
+### Inside a live archiso run:
   
 ```sh
 sudo pacman -Sy --noconfirm git
@@ -12,7 +12,7 @@ archinstall --config /home/dotfiles/archinstall/user_configuration.json --disk_l
 
 ```
 
-Once rebooted, run:
+### Once rebooted, run:
 ```sh
 git clone https://github.com/maisl0l/dotfiles
 bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh && bash /home/dotfiles/yay.sh
