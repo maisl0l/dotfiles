@@ -1,3 +1,3 @@
 # dotfiles
 
-dotfiles for arch with install script
+dotfiles for arch with install scripts
