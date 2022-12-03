@@ -8,7 +8,7 @@
 	"debug": false,
 	"gfx_driver": "All open-source (default)",
 	"harddrives": [
-		"/dev/sda"
+		"/dev/mmcblk2"
 	],
 	"hostname": "arch",
 	"kernels": [
