@@ -1,6 +1,6 @@
 #!/bin/bash
     #Backup package list
-    sudo pacman -Qqen > /home/dotfiles/misc/pacman-backup.txt
+    sudo pacman -Qqen > $HOME/dotfiles/misc/pacman-backup.txt
 
     #Sync pacman database
     sudo pacman -Syy
