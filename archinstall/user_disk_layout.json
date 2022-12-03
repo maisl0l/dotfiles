@@ -1,5 +1,5 @@
 {
-	"/dev/sda": {
+	"/dev/mmcblk2": {
 		"partitions": [
 		{
 			"boot": true,
