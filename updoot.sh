@@ -1,6 +1,6 @@
 #!/bin/bash
     #Backup package list
-        sudo pacman -Qqen > pacman-backup.txt
+        sudo pacman -Qqen > /home/dotfiles/misc/pacman-backup.txt
 
     #Sync pacman database
         sudo pacman -Syy
@@ -31,7 +31,7 @@
     #Chmod polybar/launch.sh
         sudo chmod +x $HOME/.config/polybar/launch.sh
         
-    #Wallpaper test
+    #Set Wallpaper 
         sudo mkdir /home/Pictures/
         sudo cp -r $HOME/dotfiles/wallpaper.jpg /home/Pictures/wallpaper.jpg
     
