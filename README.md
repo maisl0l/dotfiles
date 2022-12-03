@@ -10,8 +10,10 @@ cd /home/
 git clone https://github.com/maisl0l/dotfiles
 bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
 ```
-### fix:
+## fix:
 
-gimp, libreoffice and discord cant open because .config is owned by root and only modifieable by root 
-
-add y/n to scripts
+- [X] 
+- [ ] kitty colorscheme
+- [ ] make cbatticon and volumeicon run by default
+- [ ] gimp, libreoffice and discord cant open because .config is owned by root and only modifieable by root 
+- [ ] add y/n to scripts
