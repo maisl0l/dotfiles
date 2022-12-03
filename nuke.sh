@@ -1,5 +1,4 @@
 #!/bin/bash
-
   #Remove dotfiles
     sudo rm -rf $HOME/dotfiles
     sudo rm -rf $HOME/.config
