@@ -9,6 +9,5 @@ archinstall --config https://raw.githubusercontent.com/maisl0l/dotfiles/main/arc
 ```sh
 cd /home/
 git clone https://github.com/maisl0l/dotfiles
-
 bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
 ```
