@@ -13,5 +13,5 @@ bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
 ### fix:
 
 gimp, libreoffice and discord cant open because .config is owned by root and only modifieable by root 
-```sh
-```
+
+add y/n to scripts
