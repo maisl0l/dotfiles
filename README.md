@@ -1,4 +1,4 @@
-## dotfiles for arch :3
+## dotfiles for arch
 
 ### archinstall configs:
 ```sh
