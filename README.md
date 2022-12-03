@@ -1,12 +1,12 @@
 ## dotfiles for arch with install scripts
 
-### archinstall:
+### archinstall configs:
 ```sh
 wget https://raw.githubusercontent.com/maisl0l/dotfiles/main/archinstall/archinstall.sh
 bash archinstall.sh
 ```
 
-### chroot:
+### install dotfiles:
 ```sh
 cd /home/
 git clone https://github.com/maisl0l/dotfiles
