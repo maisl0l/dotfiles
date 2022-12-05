@@ -15,18 +15,18 @@
     sudo rm -rf ~/.cache*
 
     #Remove dotfiles/ .bashrc .zshrc .xinitrc .config/ from $HOME
-    sudo rm -rf $HOME/dotfiles
-    sudo rm -rf $HOME/.bashrc
-    sudo rm -rf $HOME/.zshrc
-    sudo rm -rf $HOME/.xinitrc
-    sudo rm -rf $HOME/.config
+    rm -rf $HOME/dotfiles
+    rm -rf $HOME/.bashrc
+    rm -rf $HOME/.zshrc
+    rm -rf $HOME/.xinitrc
+    rm -rf $HOME/.config
 
     #Clone dotfiles.git & copy .bashrc .zshrc .xinitrc .config/ to $HOME
-    sudo git clone https://github.com/maisl0l//dotfiles
-    sudo cp -r $HOME/dotfiles/.config/.bashrc $HOME/.bashrc
-    sudo cp -r $HOME/dotfiles/.config/.zshrc $HOME/.zshrc
-    sudo cp -r $HOME/dotfiles/.config/.xinitrc $HOME/.xinitrc
-    sudo cp -r $HOME/dotfiles/.config $HOME/.config
+    git clone https://github.com/maisl0l//dotfiles
+    cp -r $HOME/dotfiles/.config/.bashrc $HOME/.bashrc
+    cp -r $HOME/dotfiles/.config/.zshrc $HOME/.zshrc
+    cp -r $HOME/dotfiles/.config/.xinitrc $HOME/.xinitrc
+    cp -r $HOME/dotfiles/.config $HOME/.config
 
     #Chmod polybar/launch.sh
     sudo chmod +x $HOME/.config/polybar/launch.sh
