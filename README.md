@@ -15,3 +15,4 @@ bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
 - [x] make cbatticon and volumeicon run by default
 - [x] gimp, libreoffice and discord cant open because .config is owned by root and only modifieable by root 
 - [ ] add y/n to scripts
+- [ ] pipewire audio not working
