@@ -11,7 +11,7 @@ git clone https://github.com/maisl0l/dotfiles
 bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
 ```
 ## fix:
-- [ ] kitty colorscheme
+- [ ] uniform colorscheme and theme
 - [x] make cbatticon and volumeicon run by default
 - [x] gimp, libreoffice and discord cant open because .config is owned by root and only modifieable by root 
 - [ ] add y/n to scripts
