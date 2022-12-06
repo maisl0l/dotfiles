@@ -14,8 +14,8 @@
 
 
 # cbatticon and volumeicon
-exec --no-startup-id cbatticon
 exec --no-startup-id volumeicon
+exec --no-startup-id cbatticon
 
 # Set default keyboard layout
 exec "setxkbmap -layout 'ch(de)'"
