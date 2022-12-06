@@ -16,3 +16,10 @@ bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
 - [x] gimp, libreoffice and discord cant open because .config is owned by root and only modifieable by root 
 - [ ] add y/n to scripts
 - [ ] pipewire audio not working
+
+
+## misc:
+
+spotify-tui cant be installed via the aur, this is a fix:
+https://www.reddit.com/r/archlinux/comments/ytj40j/opensslsys_building_issues_in_rust_for_spotifytui/
+
