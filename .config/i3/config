@@ -71,7 +71,7 @@ exec_always picom -b -f --config $HOME/.config/picom.conf
 
 # Lock Screen This will yield a black lock screen, which
 # can be customized to your liking.
-bindsym $mod+x exec betterlockscreen -l
+bindsym --release $mod+x exec slock
 
 # Shutdown the computer
 #bindsym $mod+Shift+s exec shutdown now
