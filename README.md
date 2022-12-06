@@ -21,6 +21,5 @@ bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
 ## misc:
 
 spotify-tui cant be installed via the aur, this is a fix:
-
 https://www.reddit.com/r/archlinux/comments/ytj40j/opensslsys_building_issues_in_rust_for_spotifytui/
 
