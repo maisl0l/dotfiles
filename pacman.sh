@@ -1,6 +1,6 @@
 #!/bin/bash
     #Install pacman packages
-    sudo pacman -Sy --noconfirm ffmpeg mpv discord qjackctl xclip libqalculate iftop htop aspell scrot dunst android-file-transfer brightnessctl ardour slock pcmanfm network-manager-applet cbatticon volumeicon hacksaw shotgun tesseract firefox kitty picom polybar i3-gaps neofetch vim lolcat nitrogen openssh openvpn rofi gimp pipewire pipewire-alsa pipewire-jack pipewire-pulse zsh spotifyd libreoffice
+    sudo pacman -Sy --noconfirm cargo ffmpeg mpv discord qjackctl xclip libqalculate iftop htop aspell scrot dunst android-file-transfer brightnessctl ardour slock pcmanfm network-manager-applet cbatticon volumeicon hacksaw shotgun tesseract firefox kitty picom polybar i3-gaps neofetch vim lolcat nitrogen openssh openvpn rofi gimp pipewire pipewire-alsa pipewire-jack pipewire-pulse zsh spotifyd libreoffice
     
     # xdg-user-dirs
     
