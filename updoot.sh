@@ -22,7 +22,7 @@
     sudo rm -rf $HOME/.config
 
     #Clone dotfiles.git & copy .bashrc .zshrc .xinitrc .config/ to $HOME
-    git clone https://github.com/maisl0l//dotfiles
+    git clone https://github.com/maisl0l/dotfiles
     cp -r $HOME/dotfiles/.config/.bashrc $HOME/.bashrc
     cp -r $HOME/dotfiles/.config/.zshrc $HOME/.zshrc
     cp -r $HOME/dotfiles/.config/.xinitrc $HOME/.xinitrc
