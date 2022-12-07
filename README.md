@@ -20,7 +20,7 @@ bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
 - [ ] add underline or other shenanigans to volumeicon, cbatticon and nm-applet
 - [ ] split polybar in 3 single bars and make mpd and or spotify-tui work
 - [ ] adjust transparency rules for youtube and mpv
-- [ ] uniform qt, gtk and rofi theme
+- [ ] uniform qt, gtk and rofi theme (pcmanfm, widgets, nitrogen and mpv)
 - [ ] get rid of the god forsaken beep sound
 - [ ] add a package list for yay
 - [ ] go outside and touch grass >.>
