@@ -10,13 +10,20 @@ cd
 git clone https://github.com/maisl0l/dotfiles
 bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
 ```
-## fix:
-- [ ] uniform colorscheme and theme
+## todo:
+- [x] uniform colorscheme
 - [x] make cbatticon and volumeicon run by default
 - [x] gimp, libreoffice and discord cant open because .config is owned by root and only modifieable by root 
 - [ ] add y/n to scripts
 - [ ] pipewire audio not working (mpv, discord, doom) temporarily fixed by just using pulseaudio
-
+- [ ] make fn keys work for brightness and volume
+- [ ] add underline or other shenanigans to volumeicon, cbatticon and nm-applet
+- [ ] split polybar in 3 single bars and make mpd and or spotify-tui work
+- [ ] adjust transparency rules for youtube and mpv
+- [ ] uniform qt, gtk and rofi theme
+- [ ] get rid of the god forsaken beep sound
+- [ ] add a package list for yay
+- [ ] go outside and touch grass >.>
 
 ## misc:
 
