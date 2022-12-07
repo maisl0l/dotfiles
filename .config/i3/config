@@ -64,7 +64,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 gaps inner 10
 
 # No borders or titles.
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 0
 
 #Compositor. This helps in transparency and fading.
 exec_always picom -b -f --config $HOME/.config/picom.conf 
