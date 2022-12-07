@@ -33,7 +33,7 @@
         
     #Set Wallpaper 
     sudo mkdir /home/Pictures/
-    sudo cp -r $HOME/dotfiles/misc/wallpaper.jpg /home/Pictures/wallpaper.jpg
+    sudo cp -r $HOME/dotfiles/misc/wallpaper.jpg /home/Pictures/wallpaper.png
     
     #Clear terminal neofetch list-filesystem & done
     clear
