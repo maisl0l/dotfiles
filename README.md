@@ -1,6 +1,6 @@
 ## archinstall configs:
 ```sh
-curl https://raw.githubusercontent.com/maisl0l/dotfiles/main/archinstall.sh --output archinstall.sh
+curl https://raw.githubusercontent.com/maisl0l/dotfiles/main/archinstall.sh > archinstall.sh
 bash archinstall.sh
 ```
 
