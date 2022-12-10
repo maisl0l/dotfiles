@@ -1,8 +1,8 @@
 #!/bin/bash
     #Install pacman packages
-    sudo pacman -Sy --noconfirm man figlet toilet cowsay cmatrix ohmyzsh bullshit fuck asciiquarium tty-clock hollywood mpd bat cargo ranger ffmpeg mpv discord xclip libqalculate iftop htop aspell scrot dunst android-file-transfer brightnessctl ardour slock pcmanfm network-manager-applet cbatticon volumeicon hacksaw shotgun tesseract firefox kitty picom polybar i3-gaps neofetch vim lolcat nitrogen openssh openvpn rofi gimp zsh spotifyd libreoffice
+    sudo pacman -Sy --noconfirm man figlet cowsay cmatrix asciiquarium mpd bat cargo ranger ffmpeg mpv discord xclip libqalculate iftop htop aspell scrot dunst android-file-transfer brightnessctl ardour slock pcmanfm network-manager-applet cbatticon volumeicon hacksaw shotgun tesseract firefox kitty picom polybar i3-gaps neofetch vim lolcat nitrogen openssh openvpn rofi gimp zsh spotifyd libreoffice
     
-    # xdg-user-dirs pipewire pipewire-alsa pipewire-jack pipewire-pulse qjackctl 
+    # xdg-user-dirs pipewire pipewire-alsa pipewire-jack pipewire-pulse qjackctl toilet ohmyzsh bullshit fuck tty-clock hollywood
     
     #Install yay
     #mkdir /tmp/yay
