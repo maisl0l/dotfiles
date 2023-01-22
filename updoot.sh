@@ -30,7 +30,10 @@
 
     #Chmod polybar/launch.sh
     sudo chmod +x $HOME/.config/polybar/launch.sh
-        
+    
+    #Clone ly config.ini to /etc/ly/config.ini
+    #sudo cp -r $HOME/dotfiles/.config/config.ini /etc/ly/config.ini
+    
     #Set Wallpaper 
     sudo mkdir /home/Pictures/
     sudo cp -r $HOME/dotfiles/misc/wallpaper.png /home/Pictures/wallpaper.png
