@@ -19,3 +19,6 @@ polybar lol &
 
 echo "Bar(s) launched..."
 
+sleep 3s
+exec kitty &
+#exec kitty -e gotop
