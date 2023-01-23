@@ -23,6 +23,7 @@ bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
 - [ ] uniform qt, gtk and rofi theme (pcmanfm, widgets, nitrogen and mpv)
 - [x] get rid of the god forsaken beep sound
 - [x] add a package list for yay
+- [ ] spotify-tui & spotifyd still dont work, spotifyd needs to be killed and manually restarted otherwise the audio doesnt work
 - [ ] go outside and touch grass >.>
 
 ## misc:
