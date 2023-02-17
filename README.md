@@ -11,23 +11,19 @@ git clone https://github.com/maisl0l/dotfiles
 bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
 ```
 ## todo:
+- [ ] automatically download betterdiscord plugins and themes
+- [ ] make xrandr work for multihead
+- [ ] add a theme for dunst
 - [x] uniform colorscheme
-- [x] make cbatticon and volumeicon run by default
+- [x] make cbatticon and volumeicon run by default (volumeicon crashes due to external speaker)
 - [x] gimp, libreoffice and discord cant open because .config is owned by root and only modifieable by root 
-- [ ] add y/n to scripts
-- [ ] pipewire audio not working (mpv, discord, doom) temporarily fixed by just using pulseaudio
+- [ ] add y/n to scripts (to choose what to update and what not)
 - [ ] make fn keys work for brightness and volume
 - [ ] add underline or other shenanigans to volumeicon, cbatticon and nm-applet
 - [ ] split polybar in 3 single bars and make mpd and or spotify-tui work
 - [ ] adjust transparency rules for youtube and mpv
-- [ ] uniform qt, gtk and rofi theme (pcmanfm, widgets, nitrogen and mpv)
+- [ ] uniform qt, gtk and rofi theme (pcmanfm, widgets, nitrogen etc)
 - [x] get rid of the god forsaken beep sound
-- [x] add a package list for yay
-- [ ] spotify-tui & spotifyd still dont work, spotifyd needs to be killed and manually restarted otherwise the audio doesnt work
 - [ ] go outside and touch grass >.>
 
 ## misc:
-
-spotify-tui cant be installed via the aur, this is a fix:
-
-https://www.reddit.com/r/archlinux/comments/ytj40j/opensslsys_building_issues_in_rust_for_spotifytui/
