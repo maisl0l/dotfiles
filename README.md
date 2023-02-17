@@ -8,7 +8,7 @@ bash archinstall.sh
 ```sh
 cd
 git clone https://github.com/maisl0l/dotfiles
-bash /home/dotfiles/pacman.sh && bash /home/dotfiles/updoot.sh
+bash /home/dotfiles/packages.sh && bash /home/dotfiles/updoot.sh
 ```
 ## todo:
 - [ ] automatically download betterdiscord plugins and themes

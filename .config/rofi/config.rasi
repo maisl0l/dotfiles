@@ -3,4 +3,4 @@ configuration {
 	font: "hack 10";
 	combi-mode: "window,drun,ssh";
 }
-@theme "~/.config/rofi/themes/minimal_center"
+@theme "~/.config/rofi/themes/dark-red"

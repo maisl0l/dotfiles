@@ -49,7 +49,7 @@ bindsym $mod+Shift+q kill
 # This is the recommended mode. It searches for the programs as
 # defined in .desktop file, with their description, and corresponding
 # icons
-bindsym $mod+d exec --no-startup-id rofi -show drun -theme minimal_center 
+bindsym $mod+d exec --no-startup-id rofi -show drun -theme dark-red 
 #-icon-theme "Tela-circle" -show-icons
 
 # The other mode search for applications in /usr/bin or /usr/sbin.
