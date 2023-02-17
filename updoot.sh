@@ -26,11 +26,15 @@
     cp -r $HOME/dotfiles/.config/.bashrc $HOME/.bashrc
     cp -r $HOME/dotfiles/.config/.zshrc $HOME/.zshrc
     cp -r $HOME/dotfiles/.config/.xinitrc $HOME/.xinitrc
+    cp -r $HOME/dotfiles/.config/.screenlayout $HOME/.screenlayout
     cp -r $HOME/dotfiles/.config $HOME/.config
 
     #Chmod polybar/launch.sh
     sudo chmod +x $HOME/.config/polybar/launch.sh
     
+    #Chmod xrandr script
+    sudo chmod +x $HOME/.screenlayout/main.sh
+
     #Clone ly config.ini to /etc/ly/config.ini
     #sudo cp -r $HOME/dotfiles/.config/config.ini /etc/ly/config.ini
     
