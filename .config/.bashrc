@@ -5,6 +5,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export PATH=$HOME/.local/bin:$PATH
+
 alias py='python'
 alias py3='python3'
 alias ovpn='sudo openvpn'
