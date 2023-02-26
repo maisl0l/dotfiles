@@ -12,7 +12,8 @@ bash /home/dotfiles/packages.sh && bash /home/dotfiles/updoot.sh
 ```
 ## todo:
 - [ ] automatically download betterdiscord plugins and themes
-- [ ] make xrandr work for multihead
+- [x] make xrandr work for multihead
+- [ ] load wallpaper on all screens using nitrogen
 - [ ] add a theme for dunst
 - [x] uniform colorscheme
 - [x] make cbatticon and volumeicon run by default (volumeicon crashes due to external speaker)

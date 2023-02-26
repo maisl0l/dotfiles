@@ -20,5 +20,6 @@ polybar lol &
 echo "Bar(s) launched..."
 
 sleep 3s
+exec $HOME/.screenlayout/main.sh
 exec kitty &
 #exec kitty -e gotop
