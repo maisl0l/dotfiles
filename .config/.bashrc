@@ -14,6 +14,7 @@ alias lsa='ls -la'
 alias pacman='sudo pacman -Sy --noconfirm'
 alias doom='doomretro -iwad $HOME/Downloads/Doom1.WAD'
 alias jerry='jerry -D &'
+alias fixkb="setxkbmap 'ch(de)'
 
 eval "$(thefuck --alias)"
 
