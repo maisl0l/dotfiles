@@ -21,4 +21,4 @@ eval "$(thefuck --alias)"
 
 PS1=' \[\e[0;96m\]\w \[\e[0;1;38;5;228m\]>\[\e[0;1;38;5;228m\]~\[\e[0;1;38;5;228m\]> \[\e[0m\]'
 
-neofetch | lolcat
+neofetch --backend --kitty --size 460 --source "$HOME/.config/pikachu-sprite.png"
