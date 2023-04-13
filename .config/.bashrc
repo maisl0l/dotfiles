@@ -16,6 +16,7 @@ alias doom='doomretro -iwad $HOME/Downloads/Doom1.WAD'
 alias jerry='jerry -D &'
 alias fixkb="setxkbmap 'ch(de)'"
 alias bat='cat'
+alias neofetch'neofetch --backend --kitty --size 460 --source "$HOME/.config/neofetch/pikachu-sprite.png"
 
 eval "$(thefuck --alias)"
 
