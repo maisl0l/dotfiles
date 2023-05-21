@@ -17,6 +17,7 @@ alias jerry='jerry -D &'
 alias fixkb="setxkbmap 'ch(de)'"
 alias bat='cat'
 alias neofetch='neofetch --backend --kitty --size 460 --source "$HOME/.config/neofetch/pikachu-sprite.png"'
+alias fixpipe='systemctl --user restart wireplumber pipewire pipewire-pulse'
 
 eval "$(thefuck --alias)"
 
